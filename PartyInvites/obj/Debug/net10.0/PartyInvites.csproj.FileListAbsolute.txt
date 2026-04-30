@@ -97,3 +97,4 @@ G:\编程\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\refint\Party
 G:\编程\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\PartyInvites.pdb
 G:\编程\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\PartyInvites.genruntimeconfig.cache
 G:\编程\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\ref\PartyInvites.dll
+G:\编程\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
