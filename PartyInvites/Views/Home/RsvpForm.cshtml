@@ -1,4 +1,5 @@
-﻿@{
+﻿@model PartyInvites.Models.GuestResponse
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -9,8 +10,28 @@
     <title>敬请赐复</title>
 </head>
 <body>
-	<div>
-        这是RsvpForm.cshtml文件
-    </div>
+	<form asp-action="RsvpForm" method="post">
+        <div>
+            <label asp-for="Name">姓名：</label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label asp-for="Email">EMail：</label>
+            <input asp-for="Email" />
+        </div>
+        <div>
+            <label asp-for="Phone">电话：</label>
+            <input asp-for="Phone" />
+        </div>
+        <div>
+            <label asp-for="WillAttend">是否参加：</label>
+            <select asp-for="WillAttend">
+                <option value="">请选择</option>
+                <option value="true">是，我想参加</option>
+                <option value="false">否，我不能参加</option>    
+            </select>
+        </div>
+        <button type="submit">提交回复</button>
+    </form>
 </body>
 </html>
