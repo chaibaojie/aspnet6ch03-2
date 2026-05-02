@@ -1,0 +1,26 @@
+﻿@model PartyInvites.Models.GuestResponse
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>致谢</title>
+</head>
+<body>
+    <div>
+        <h1>感谢您的回复, @Model.Name!</h1>
+        @if(Model?.WillAttend == true)
+        {
+            <p>我们很高兴您能参加我们的聚会！期待与您共度美好时光。</p>
+        }
+        else
+        {
+            <p>我们很遗憾您无法参加我们的聚会,但感谢您提前告知我们</p>
+        }
+    </div>
+    点击<a asp-action="ListResponses">查看</a>看看谁将参加。
+</body>
+</html>

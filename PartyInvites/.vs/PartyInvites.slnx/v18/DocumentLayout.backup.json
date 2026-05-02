@@ -44,10 +44,9 @@
               "RelativeDocumentMoniker": "Models\\Repository.cs",
               "ToolTip": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Models\\Repository.cs",
               "RelativeToolTip": "Models\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T11:15:59.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T11:15:59.328Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Models\\GuestResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:09:17.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T09:09:17.357Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Views\\Home\\RsvpForm.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-30T09:02:56.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T09:02:56.96Z"
             },
             {
               "$type": "Document",
@@ -83,7 +80,7 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T01:19:35.214Z",
               "EditorCaption": ""
