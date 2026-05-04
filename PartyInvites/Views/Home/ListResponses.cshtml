@@ -1,0 +1,30 @@
+﻿@model IEnumerable<PartyInvites.Models.GuestResponse>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>以下是参加派对的人名单</h2>
+    <table>
+        <thead>
+            <tr><th>姓名</th><th>EMail</th><th>电话</th></tr>
+        </thead>
+        <tbody>
+            @foreach (var response in Model!)
+            {
+                <tr>
+                    <td>@response.Name</td>
+                    <td>@response.Email</td>
+                    <td>@response.Phone</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
