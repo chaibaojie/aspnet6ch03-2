@@ -61,6 +61,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\styles.css
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\css\site.css
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\favicon.ico
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\js\site.js
@@ -123,3 +124,4 @@ E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\lib\jquery\dist\jquery.slim.j
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\lib\jquery\dist\jquery.slim.min.js
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\lib\jquery\dist\jquery.slim.min.map
 E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\lib\jquery\LICENSE.txt
+E:\Repositories\aspnet6ch03-2\PartyInvites\wwwroot\css\styles.css

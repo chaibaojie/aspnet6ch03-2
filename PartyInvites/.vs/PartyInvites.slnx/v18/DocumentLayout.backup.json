@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\views\\home\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:views\\home\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\views\\home\\listresponses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:views\\home\\listresponses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|solutionrelative:models\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{305663E7-D6C7-A073-68E3-E54F574018B7}|PartyInvites.csproj|e:\\repositories\\aspnet6ch03-2\\partyinvites\\views\\home\\thanks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ListResponses.cshtml",
               "DocumentMoniker": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Views\\Home\\ListResponses.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ListResponses.cshtml",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "Views\\Home\\ListResponses.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-04T00:12:46.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T00:12:46.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Models\\Repository.cs",
               "RelativeDocumentMoniker": "Models\\Repository.cs",
@@ -67,38 +66,36 @@
               "RelativeToolTip": "Models\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T11:15:59.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T11:15:59.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GuestResponse.cs",
               "DocumentMoniker": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Models\\GuestResponse.cs",
               "RelativeDocumentMoniker": "Models\\GuestResponse.cs",
               "ToolTip": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Models\\GuestResponse.cs",
               "RelativeToolTip": "Models\\GuestResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T09:09:17.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T09:09:17.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RsvpForm.cshtml",
               "DocumentMoniker": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Views\\Home\\RsvpForm.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\RsvpForm.cshtml",
               "ToolTip": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Views\\Home\\RsvpForm.cshtml",
               "RelativeToolTip": "Views\\Home\\RsvpForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-30T09:02:56.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Repositories\\aspnet6ch03-2\\PartyInvites\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T01:19:35.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T01:19:35.214Z"
             },
             {
               "$type": "Document",

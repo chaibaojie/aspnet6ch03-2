@@ -198,3 +198,4 @@ E:\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\PartyInvites.pdb
 E:\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\PartyInvites.genruntimeconfig.cache
 E:\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\ref\PartyInvites.dll
 E:\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\Repositories\aspnet6ch03-2\PartyInvites\obj\Debug\net10.0\compressed\j4xp79zvkx-{0}-7nj0i9ahew-7nj0i9ahew.gz
