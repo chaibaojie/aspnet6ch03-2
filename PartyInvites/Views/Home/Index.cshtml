@@ -7,16 +7,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <title>Party</title>
 </head>
 <body>
-	<div>
-        <div>
-            @* We're going to have an exciting party.<br /> *@
-            我们将举办一场激动人心的聚会。<br />
-            (To do: sell it better. Add pictures or something.)
-        </div>
-        <a asp-action="RsvpForm">敬请赐复</a>
+    <div class="text-center m-2">        
+        <h3>我们将举办一场激动人心的聚会！</h3>
+        <h4 class="mt-2">诚邀您的加入！</h4>
+        <a class="btn btn-primary" asp-action="RsvpForm">敬请赐复</a>
     </div>
 </body>
 </html>
