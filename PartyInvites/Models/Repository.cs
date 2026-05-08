@@ -6,7 +6,7 @@
         public static IEnumerable<GuestResponse> Responses => responses;
         public static void AddResponse(GuestResponse response)
         {
-            Console.WriteLine(response.Name);
+            //Console.WriteLine(response.Name);
             responses.Add(response);
         }
     }

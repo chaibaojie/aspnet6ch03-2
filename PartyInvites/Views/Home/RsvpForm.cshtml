@@ -1,45 +1,33 @@
 ﻿@model PartyInvites.Models.GuestResponse
-@{
-    Layout = null;
-}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/styles.css" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-    <title>敬请赐复</title>
-</head>
-<body>
-    <h5 class="bg-primary text-white text-center m-2 p-2">RSVP</h5>
-    <form asp-action="RsvpForm" method="post" class="m-2">
-        <div asp-validation-summary="All" class="text-danger mb-3"></div>
-        <div class="mb-3">
-            <label asp-for="Name" class="form-label">姓名：</label>
-            <input asp-for="Name" class="form-control" />
-            <span asp-validation-for="Name" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Email" class="form-label">电子邮件：</label>
-            <input asp-for="Email" class="form-control" />
-            <span asp-validation-for="Email" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="Phone" class="form-label">电话：</label>
-            <input asp-for="Phone" class="form-control" />
-            <span asp-validation-for="Phone" class="text-danger"></span>
-        </div>
-        <div class="mb-3">
-            <label asp-for="WillAttend" class="form-label">是否参加：</label>
-            <select asp-for="WillAttend" class="form-select">
-                <option value="">请选择</option>
-                <option value="true">是，我想参加</option>
-                <option value="false">否，我不能参加</option>
-            </select>
-            <span asp-validation-for="WillAttend" class="text-danger"></span>
-        </div>
+
+<h5 class="bg-primary text-white text-center m-2 p-2">RSVP</h5>
+<form asp-action="RsvpForm" method="post" class="m-2">
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">姓名：</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">电子邮件：</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label">电话：</label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="WillAttend" class="form-label">是否参加：</label>
+        <select asp-for="WillAttend" class="form-select">
+            <option value="">请选择</option>
+            <option value="true">是，我想参加</option>
+            <option value="false">否，我不能参加</option>
+        </select>
+        <span asp-validation-for="WillAttend" class="text-danger"></span>
+    </div>
+    <div class="text-center">
         <button type="submit" class="btn btn-primary mt-3">提交回复</button>
-    </form>	
-</body>
-</html>
+    </div>
+</form>	
